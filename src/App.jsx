@@ -11,7 +11,7 @@ function Noise() {
 function Nav() {
   return (
     <div className="fixed top-0 left-0 right-0 z-30 flex items-center justify-between px-6 py-4">
-      <div className="text-xs tracking-[0.35em] uppercase text-neutral-300">Digital Magazine</div>
+      <div className="text-xs tracking-[0.35em] uppercase text-neutral-300">Petits a</div>
       <div className="flex items-center gap-6 text-neutral-300">
         <a href="#" className="hover:text-white transition-colors">Issues</a>
         <a href="#" className="hover:text-white transition-colors">Features</a>
@@ -25,7 +25,7 @@ function Marquee() {
   return (
     <div className="absolute left-0 right-0 -bottom-2 overflow-hidden">
       <div className="whitespace-nowrap text-[10vw] leading-none font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-b from-white to-neutral-500/30 opacity-[0.05] select-none">
-        AVANT • GRUNGE • LUXE • AVANT • GRUNGE • LUXE • AVANT • GRUNGE • LUXE •
+        PETITS A • AVANT • GRUNGE • LUXE • PETITS A • AVANT • GRUNGE • LUXE •
       </div>
     </div>
   )
@@ -109,7 +109,7 @@ export default function App(){
         <Grid articles={articles}/>
       </main>
       <footer className="px-6 py-10 text-neutral-500 text-xs uppercase tracking-widest">
-        © {new Date().getFullYear()} Digital Magazine
+        © {new Date().getFullYear()} Petits a
       </footer>
     </div>
   )
